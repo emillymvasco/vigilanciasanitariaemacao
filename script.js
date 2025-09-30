@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const totalRiscos = 5;
 
     // Carregar os dados do JSON
-    fetch('riscos_cozinha.json')
+    fetch('/riscos_cozinha.json')
         .then(response => response.json())
         .then(data => {
             riscosData = data.riscos_parasitoses;
@@ -93,4 +93,5 @@ document.addEventListener('DOMContentLoaded', () => {
             }, 1500);
         }
     }
+
 });
