@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo dos 5 Riscos na Cozinha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Jogo dos 5 Riscos</h1>
+        <h2>Riscos Encontrados: <span id="counter">0</span> / 5</h2>
+    </header>
+
+    <main>
+        <div id="game-container">
+            </div>
+    </main>
+
+    <div id="modal-overlay" class="hidden">
+        <div id="modal">
+            <span id="close-button">&times;</span>
+            <h3 id="modal-title"></h3>
+            <p id="modal-descricao"></p>
+            <h4>Parasitas Associados:</h4>
+            <ul id="modal-parasitas"></ul>
+            <h4>Como Prevenir:</h4>
+            <p id="modal-prevencao"></p>
+        </div>
+    </div>
+
+    <div id="win-message" class="hidden">
+        Parabéns, você encontrou todos os riscos! Ambiente seguro!
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

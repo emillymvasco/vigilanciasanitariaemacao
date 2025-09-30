@@ -1,0 +1,88 @@
+{
+  "riscos_parasitoses": [
+    {
+      "id": 1,
+      "nome": "Mãos Sujas",
+      "coordenadas": {
+        "x": 65,
+        "y": 810,
+        "largura": 350,
+        "altura": 200
+      },
+      "parasitas": [
+        "Ascaris lumbricoides (lombriga)",
+        "Giardia lamblia",
+        "Entamoeba histolytica (ameba)",
+        "Ovos de tênia (solitária)"
+      ],
+      "descricao": "Mãos sujas de terra ou que não foram lavadas após usar o banheiro podem carregar ovos e cistos de parasitas. Ao tocar nos alimentos, esses parasitas são transferidos e podem ser ingeridos, causando infecções.",
+      "prevencao": "Lave sempre as mãos com água e sabão antes de preparar ou comer alimentos e após usar o banheiro ou ter contato com terra."
+    },
+    {
+      "id": 2,
+      "nome": "Verdura Mal Lavada",
+      "coordenadas": {
+        "x": 280,
+        "y": 320,
+        "largura": 230,
+        "altura": 170
+      },
+      "parasitas": [
+        "Ascaris lumbricoides",
+        "Toxocara spp.",
+        "Cistos de Giardia e Entamoeba"
+      ],
+      "descricao": "Hortaliças como o alface, quando cultivadas em solos ou irrigadas com água contaminada, podem conter ovos e cistos de parasitas. Se não forem devidamente higienizadas, a ingestão leva à contaminação.",
+      "prevencao": "Lave as verduras e legumes em água corrente e deixe-os de molho em uma solução de hipoclorito de sódio (água sanitária própria para alimentos) antes de consumir."
+    },
+    {
+      "id": 3,
+      "nome": "Carne Crua",
+      "coordenadas": {
+        "x": 425,
+        "y": 695,
+        "largura": 230,
+        "altura": 120
+      },
+      "parasitas": [
+        "Taenia saginata (solitária da carne de boi)",
+        "Toxoplasma gondii"
+      ],
+      "descricao": "O consumo de carne crua ou malcozida pode transmitir cistos de parasitas, como a tênia (solitária) e o Toxoplasma. Além disso, o contato da carne crua com alimentos já prontos (como a salada ao lado) pode causar contaminação cruzada.",
+      "prevencao": "Cozinhe bem todas as carnes. Use tábuas e utensílios diferentes para alimentos crus e cozidos e lave bem as mãos e superfícies após manusear carne crua."
+    },
+    {
+      "id": 4,
+      "nome": "Mosca",
+      "coordenadas": {
+        "x": 780,
+        "y": 270,
+        "largura": 100,
+        "altura": 80
+      },
+      "parasitas": [
+        "Giardia lamblia",
+        "Entamoeba histolytica",
+        "Ascaris lumbricoides"
+      ],
+      "descricao": "As moscas pousam em fezes e lixo, carregando em suas patas e corpo diversos microrganismos, incluindo ovos e cistos de parasitas. Ao pousarem em alimentos, na água ou em utensílios, elas contaminam o que será consumido.",
+      "prevencao": "Mantenha os alimentos sempre cobertos, o lixo bem fechado e o ambiente limpo e livre de moscas, usando telas em portas e janelas, se necessário."
+    },
+    {
+      "id": 5,
+      "nome": "Gato na Cozinha",
+      "coordenadas": {
+        "x": 790,
+        "y": 640,
+        "largura": 220,
+        "altura": 290
+      },
+      "parasitas": [
+        "Toxoplasma gondii",
+        "Toxocara cati"
+      ],
+      "descricao": "Gatos, especialmente os que têm acesso à rua, podem ser portadores do Toxoplasma gondii, que é eliminado em suas fezes. A presença do animal em áreas de preparo de alimentos aumenta o risco de contaminação de superfícies e alimentos.",
+      "prevencao": "Mantenha os animais de estimação longe das pias, balcões e mesas onde a comida é preparada. Limpe a caixa de areia diariamente e lave bem as mãos após a limpeza."
+    }
+  ]
+}
